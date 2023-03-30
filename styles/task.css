@@ -1,0 +1,139 @@
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: #DBE9EE;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+#ntask{
+    position: relative;
+    padding: 30px 20px;
+}
+#ntask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#ntask input:focus{
+    outline: none;
+    border-color: #166088;
+}
+#ntask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #166088;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: auto;
+    padding: 28px;
+    border-radius: 5px;
+}
+#tasks{
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    background-color: #DBE9EE;
+    margin: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #939697;
+    background-color: #C0D6DF;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+}
+.task span{
+    font-size: 15px;
+    font-weight:00;
+    color: #166088;
+}
+.task button{
+    background-color: #166088;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.task button img{
+    filter: invert(100%);
+    width: 20px;
+    height: auto;
+}
+#compHead{
+    font-family: 'Changa One', cursive;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #166088;
+}
+#comp{
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    background-color: #DBE9EE;
+    margin: 30px 20px;
+    margin-top: 10px;
+}
+.comp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #939697;
+    background-color: #C0D6DF;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+}
+.comp span{
+    font-size: 15px;
+    font-weight:00;
+    color: #166088;
+    text-decoration: line-through;
+}
+.comp button{
+    background-color: #166088;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.comp button img{
+    filter: invert(100%);
+    width: 20px;
+    height: auto;
+    
+}

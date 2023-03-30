@@ -1,0 +1,28 @@
+nav h1{
+    font-family: 'Changa One', cursive;
+    text-align: center;
+    font-size:  100px;
+    color: #C0D6DF;
+    letter-spacing: 10px;
+}
+.back{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 618px;
+}
+.front{
+    display: inline;
+    position: relative;
+    top: 0px;
+    left: 620px;
+    color: #5390d9;
+    filter: drop-shadow(10px 00px 1px #05668d);
+    z-index: 0;
+    
+}
+.front:hover{
+    top: 5px;
+    left: 625px;
+    filter: drop-shadow(15px 0px 1px #05668d);
+}

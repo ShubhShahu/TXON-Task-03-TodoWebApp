@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Taskmaster</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/task.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/filter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <h1 class="back">TASKMASTER</h1>
+      <h1 class="front">TASKMASTER</h1>
+    </nav>
+    <div class="container">
+      <div id="ntask">
+        <input type="text" placeholder="Add Tasks" />
+        <button id="push">Add</button>
+      </div>
+      <div class="filter">
+        <div>
+          <input type="radio" id="all" name="filter" value="all" checked />
+          <label for="all">All</label>
+        </div>
+        <div>
+          <input type="radio" id="active" name="filter" value="active" />
+          <label for="active">Active</label>
+        </div>
+        <div>
+          <input type="radio" id="completed" name="filter" value="completed" />
+          <label for="completed">Completed</label>
+        </div>
+      </div>
+
+      <div class="taskBox">
+        <div id="tas">
+          <h2 id="compHead">Active:</h2>
+          <div id="tasks"></div>
+        </div>
+        <div id="com">
+          <h2 id="compHead">Completed:</h2>
+          <div id="comp"></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
